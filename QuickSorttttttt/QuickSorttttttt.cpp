@@ -76,3 +76,7 @@ void q_short(int low, int high)
 		}
 	}
 
+	if (low < j) { //step 11
+		//swap the pivot element with the elemen at index j
+		swap(low, j);
+	}
